@@ -42,7 +42,6 @@ export default function Home() {
         <div className="absolute right-[-600px] top-1/2 h-[1300px] w-[1300px] -translate-y-1/2">
           <div className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
 
-          {/* ticks */}
           {Array.from({ length: totalBars }).map((_, i) => {
             const angle = i * barStep + ringRotationOffset + spinAngle;
 
@@ -102,17 +101,9 @@ export default function Home() {
             );
           })}
 
-          {/* arrow + badge */}
           <div className="absolute left-1/2 top-1/2 -translate-y-1/2 translate-x-[-505px]">
             <div className="flex items-center">
-              <Image
-                src="/vector.svg"
-                alt="Vector"
-                width={185}
-                height={10}
-                priority
-              />
-
+            <Image src="/vector.svg" alt="Vector" width={185} height={10} />
               <div
                 className="ml-4 flex h-[60px] w-[256px] items-center gap-[10px] rounded-[99px] pr-[20px] pl-[6px] pt-[6px] pb-[6px] text-white"
                 style={{
