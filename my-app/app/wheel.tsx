@@ -102,11 +102,10 @@ export default function Home() {
             );
           })}
 
-          {/* arrow + badge */}
           <div className="absolute left-1/2 top-1/2 -translate-y-1/2 translate-x-[-505px]">
             <div className="flex items-center">
               <Image
-                src="/vector.svg"
+                src="/Vector.svg"
                 alt="Vector"
                 width={185}
                 height={10}
