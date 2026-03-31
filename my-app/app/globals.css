@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@keyframes wheelSpinLoop {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wheel-spin-step {
+  animation: wheelSpinLoop 24s cubic-bezier(1, 0.01, 0.02, 1) infinite;
+  transform-origin: center;
+}
