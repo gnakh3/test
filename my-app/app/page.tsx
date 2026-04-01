@@ -1,5 +1,5 @@
-import Wheel from "./wheel";
-import Provenimpact from "./provenimpact";
+import Wheel from "./molecules/Wheel/wheel";
+import Provenimpact from "./organisms/provenimpact";
 
 const Page = () => {
   return (
