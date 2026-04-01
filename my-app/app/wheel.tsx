@@ -24,7 +24,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setStep((prev) => prev + 1);
-    }, 1600); 
+    }, 1600);
 
     return () => clearInterval(interval);
   }, []);
@@ -37,7 +37,7 @@ export default function Home() {
   const transitionStyle = "transform 800ms cubic-bezier(1, 0.01, 0.02, 1)";
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[#070312]">
+    <main className="relative min-h-screen overflow-hidden bg-[var(--Surface-Black,#121019)]">
       <div className="absolute inset-y-0 right-0 w-[1500px] overflow-hidden">
         <div className="absolute right-[-600px] top-1/2 h-[1300px] w-[1300px] -translate-y-1/2">
           <div className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
@@ -78,7 +78,7 @@ export default function Home() {
                 }}
               >
                 <button
-                  className="flex h-[56px] w-[118px] items-center justify-center rounded-[99px] px-6 py-4 text-white"
+                  className="flex h-[56px] min-w-[123px] items-center justify-center rounded-[99px] border-[1px] px-6 py-4 text-white"
                   style={{
                     transform: isActive
                       ? `translateY(-${itemRadius}px) rotate(${-angle}deg)`
@@ -135,11 +135,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-[220px] bg-gradient-to-b from-[#070312] via-[#070312]/92 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-[260px] bg-gradient-to-b from-[var(--Surface-Black,#121019)] via-[#121019]/92 to-transparent" />
 
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-[220px] bg-gradient-to-t from-[#070312] via-[#070312]/92 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-[260px] bg-gradient-to-t from-[var(--Surface-Black,#121019)] via-[#121019]/92 to-transparent" />
 
-        <div className="pointer-events-none absolute inset-y-0 left-0 z-20 w-[90px] bg-gradient-to-r from-[#070312] to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-20 w-[90px] bg-gradient-to-r from-[var(--Surface-Black,#121019)] to-transparent" />
       </div>
     </main>
   );

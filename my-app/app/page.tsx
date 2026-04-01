@@ -1,11 +1,17 @@
-import Wheel from "./wheel"
+import Wheel from "./wheel";
+import Provenimpact from "./provenimpact";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <Wheel />
+    <div className="flex flex-col items-center justify-center bg-[var(--Surface-Black,#121019)]">
+      <div className="w-full justify-center items-center flex">
+        <Provenimpact />
+      </div>
+      <div className="w-full">
+        <Wheel />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default Page;
