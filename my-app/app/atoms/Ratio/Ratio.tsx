@@ -303,7 +303,7 @@ export default function BeforeAfterBars() {
                                     alignItems: "center",
                                     gap: 12,
                                     borderRadius: 999,
-                                    padding: "0 20px",
+                                    padding: "12px 20px",
                                     background: "var(--transparent-surface-transparent-white-6, #FFFFFF0F)",
                                 }}
                             >
@@ -344,7 +344,7 @@ export default function BeforeAfterBars() {
                                     alignItems: "center",
                                     gap: 12,
                                     borderRadius: 999,
-                                    padding: "0 20px",
+                                    padding: "12px 20px",
                                     background: "var(--transparent-surface-transparent-white-6, #FFFFFF0F)",
                                 }}
                             >
