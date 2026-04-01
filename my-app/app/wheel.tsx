@@ -86,11 +86,6 @@ export default function Home() {
                     background:
                       "linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.012) 100%)",
                     border: "1px solid rgba(255,255,255,0.06)",
-                    boxShadow: isActive
-                      ? "0 0 14px rgba(255,255,255,0.08)"
-                      : "0 0 10px rgba(120,119,255,0.04)",
-                    backdropFilter: "blur(8px)",
-                    WebkitBackdropFilter: "blur(8px)",
                   }}
                 >
                   <span className="text-[16px] font-medium leading-6 tracking-[0.1px]">
