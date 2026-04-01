@@ -94,7 +94,6 @@ function ComplianceAccuracy() {
                 />
             </svg>
 
-            {/* center pill */}
             <div
                 style={{
                     position: "absolute",

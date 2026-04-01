@@ -159,17 +159,15 @@ function WeeklyMonitor() {
                 >
                     <div
                         style={{
-                            width: 10,
-                            height: 10,
+                            width: 8,
+                            height: 8,
                             borderRadius: "999px",
                             background: "#3EBE00",
-                            boxShadow: "0 0 8px rgba(62, 190, 0, 0.6)",
-                            animation: "pulse 2s ease-in-out infinite",
                         }}
                     />
                     <span
                         style={{
-                            color: "rgba(255,255,255,0.9)",
+                            color: "rgba(255,255,255,0.90)",
                             fontSize: 15,
                             fontWeight: 600,
                         }}
@@ -177,13 +175,6 @@ function WeeklyMonitor() {
                         Continuous Verification
                     </span>
                 </div>
-
-                <style>{`
-          @keyframes pulse {
-            0%, 100% { box-shadow: 0 0 8px rgba(62, 190, 0, 0.6); }
-            50% { box-shadow: 0 0 16px rgba(62, 190, 0, 0.9), 0 0 4px rgba(62, 190, 0, 1); }
-          }
-        `}</style>
             </div>
         </div>
     );
