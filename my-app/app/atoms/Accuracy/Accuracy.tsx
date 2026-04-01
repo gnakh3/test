@@ -97,7 +97,7 @@ function ComplianceAccuracy() {
             <div
                 style={{
                     position: "absolute",
-                    padding: "10px 20px",
+                    padding: "12px 20px",
                     borderRadius: 999,
                     background: "#2A2A2F",
                     color: "white",
